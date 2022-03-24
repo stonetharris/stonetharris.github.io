@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Blackjack Project</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Stone Harris</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">Main Page</a></li>
+							<li class="active"><a href="Blackjack.html">Blackjack</a></li>
+							<li><a href="cs112.html">Java Projects</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="#https://www.linkedin.com/in/stone-harris-29aa1b189/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<h1>Blackjack Game</h1>
+									<p>Here are all of the classes that I wrote in order to create the Blackjack game.</p>
+								</header>
+								<!-- <div class="image main"><img src="images/pic01.jpg" alt="" /></div> -->
+								<p>First is the simple Card class. This class includes all the functionality that a card requires in order to play any card game: suit and rank identifications, two different constructors, and getter methods.  </p>
+								<ul class="actions special">
+									<li><a href="Card.java" class="button">Card.java</a></li>
+								</ul>
+								<br />
+								<p>Next is the Deck class. Built to be able to handle and manipulate arrays consisting of cards, it has shuffling and dealing functionality. </p>
+								<ul class="actions special">
+									<li><a href="Deck.java" class="button">Deck.java</a></li>
+								</ul>
+								<br />
+								<p>Then is the Player is class. This class gives the player an entity that can store a hand. Functionality for adding cards, hand evaluation (what the hand's value is and whether they have Blackjack), and discarding cards is included with this class. Additionally, this class allows the player to inpit whether or not they want a hit by using scanner. </p>
+								<ul class="actions special">
+									<li><a href="Player.java" class="button">Player.java</a></li>
+								</ul>
+								<br />
+								<p>Extending from the Player class is the Dealer class. This class utilizes the base of the Player class, but overrides two main methods: the printHand method, because the player is not supposed to be able to see the dealer's hand and the wantsHit method, because the dealer wanting a hit can be determined by the value of his hand. </p>
+								<ul class="actions special">
+									<li><a href="Dealer.java" class="button">Dealer.java</a></li>
+								</ul>
+                                <br />
+                                <p>The class that ties everything together is the Blackjack class. Its methods do the heavy lifting in terms of carrying out the game. It utilizes methods such as playRound and printResult in order to proceed through rounds, determining whether the player or the dealer wins each round. </p>
+								<ul class="actions special">
+									<li><a href="Blackjack.java" class="button">Blackjack.java</a></li>
+								</ul>
+							</section>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section class="split contact">
+							<section>
+								<h3>School Email</h3>
+								<p><a href="stoneh@bu.edu">stoneh@bu.edu</a></p>
+							</section>
+							<section>
+								<h3>Personal Email</h3>
+								<p><a href="stonetharris@gmail.com">stonetharris@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="https://www.linkedin.com/in/stone-harris-29aa1b189/" class="icon brands alt fa-linkedin"><span class="label">Linkedin</span></a></li>
+									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
